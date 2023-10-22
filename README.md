@@ -36,8 +36,8 @@ Este projeto está sob a licença [Nome da Licença](LINK_PARA_LICENÇA). Consul
 
 ## Contato
 
-- Nome: Seu Nome
-- Email: seu_email@example.com
-- LinkedIn/Twitter/GitHub: @seu_usuario
+- Nome: Ilgner Silva Santos Amaral
+- Email: ilgneramaral@hotmail.com
+- LinkedIn: Ilgner Silva/GitHub: @ilgnerBill
 
 ---
