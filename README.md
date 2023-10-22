@@ -30,7 +30,7 @@ Contribuições são sempre bem-vindas! Veja [CONTRIBUTING.md](CONTRIBUTING.md) 
 
 ## 📋 Licença
 
-Este projeto está sob a licença [Nome da Licença](LINK_PARA_LICENÇA). Consulte o arquivo [LICENSE](LICENSE) para obter detalhes.
+Este projeto está sob a licença [Copyright (c) 2023 IlgnerBill](https://github.com/IlgnerBill/QuickNotes/blob/main/LICENSE). Consulte o arquivo [LICENSE](LICENSE) para obter detalhes.
 
 ---
 
