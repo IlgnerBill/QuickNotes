@@ -1,45 +1,51 @@
+![QuickNotes Logo](https://th.bing.com/th/id/R.e1d7d5807fd4b0ca06463e826e09f6f5?rik=HoCR4op9v64kog&riu=http%3a%2f%2fwww.qnotes.com%2fimages%2fSoap-Notes-Quick-Notes-Logo.png&ehk=3%2bKhjZPIVPVclYMAtZy5XUMzyPjj6fMs2TEprHk%2bvak%3d&risl=&pid=ImgRaw&r=0)
 
+# QuickNotes - Sistema de Anotações com SQLite
 
-# QuickNotes
-Sistema de Anotações com SQLite e Java
-![images](https://github.com/IlgnerBill/QuickNotes/assets/129675673/8145b2ad-f102-46c3-9e40-e0f88b07b38f)
- **CRUD de Anotações**: Adicione, leia, atualize e delete notas.
- **CRUD de Categorias**: Organize suas notas em categorias.
- **CRUD de Lembretes**: Defina lembretes para suas tarefas e anotações.
- **SQLite Integration**: Todas as informações são armazenadas localmente no SQLite.
- ## 📚 Requisitos
+Um aplicativo Java simples para gerenciar anotações pessoais, categorias e lembretes utilizando SQLite como banco de dados.
 
-- Java JDK 8+
-- SQLite
+## 📌 Índice
 
-## 🛠️ Instalação e Uso
+- [Estrutura do Projeto](#-estrutura-do-projeto)
+- [Funcionalidades](#-funcionalidades)
+- [Pré-requisitos](#-pré-requisitos)
+- [Como Executar](#-como-executar)
+- [Licença](#-licença)
 
-**1. Clonando o projeto**:
-bash
-git clone https://github.com/IlgnerBill/QuickNotes
+## 📁 Estrutura do Projeto
 
-](https://github.com/IlgnerBill/QuickNotes)
-**2. Navegue até o diretório**:
-bash
-cd quicknotes
+#### Modelos:
 
+- **Anotacao:** Representa uma anotação individual.
+- **Categoria:** Representa uma categoria de anotações.
+- **Lembrete:** Representa um lembrete associado a uma anotação.
 
-**3. (Instruções adicionais de instalação e compilação aqui, como configuração de banco de dados, compilação Java, etc.)**
+#### DAO (Data Access Object):
 
-## 🌐 Contribuições
+- **DBConnection:** Classe para gerenciar a conexão com o banco de dados.
+- **AnotacaoDAO:** Fornece métodos para operações CRUD com anotações.
+- **CategoriaDAO:** Permite a inserção e listagem de categorias.
+- **LembreteDAO:** Permite a inserção e listagem de lembretes.
 
-Contribuições são sempre bem-vindas! Veja [CONTRIBUTING.md](CONTRIBUTING.md) para saber como ajudar.
+## ✨ Funcionalidades
 
-## 📋 Licença
+### CategoriaDAO:
+- **Insert:** Adiciona uma nova categoria ao banco de dados.
+- **FindAll:** Retorna uma lista de todas as categorias.
 
-Este projeto está sob a licença [Copyright (c) 2023 IlgnerBill](https://github.com/IlgnerBill/QuickNotes/blob/main/LICENSE). Consulte o arquivo [LICENSE](LICENSE) para obter detalhes.
+### LembreteDAO:
+- **Insert:** Adiciona um novo lembrete.
+- **FindAllReminders:** Retorna uma lista de todos os lembretes.
 
----
+*(Funcionalidades adicionais de CRUD podem ser implementadas no futuro.)*
 
-## Contato
+## 🛠️ Pré-requisitos
 
-- Nome: Ilgner Silva Santos Amaral
-- Email: ilgneramaral@hotmail.com
-- LinkedIn: Ilgner Silva/GitHub: @ilgnerBill
+- JDK instalado em sua máquina.
+- Driver JDBC para SQLite.
 
----
+## 🚀 Como Executar
+
+1. Clone o repositório para sua máquina local:
+   ```bash
+   git clone git@github.com:leoarcabold/quicknotes.git
